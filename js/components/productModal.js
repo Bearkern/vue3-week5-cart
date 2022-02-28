@@ -12,6 +12,7 @@ export default {
   watch: {
     id() {
       this.getProduct();
+      this.qty = 1;
     }
   },
   methods: {
